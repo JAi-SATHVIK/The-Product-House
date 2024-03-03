@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://assets-global.website-files.com/618bdb39629b12a794c27a72/61f8fc30da1162b3708ddb26_TPH%20Cover.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.feature-dowm {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: rgba(108, 108, 108, 0.7);
+    transition: background-color 0.5s ease;
+}
+
+.floating-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(77, 74, 74, 0.7);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    color: rgb(189, 187, 187);
+    font-size: 14px;
+    font-optical-sizing: auto;
+    font-weight: 18px;
+    font-style: normal;
+}
+
+.fa-arrow-circle-right {
+    color: rgb(255, 255, 255);
+    right: 28px;
+    position: absolute;
+}
+
+.fa-arrow-circle-down {
+    color: rgb(255, 255, 255);
+    right: 28px;
+    position: absolute;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+}
+
+li {
+    font-family: "Playfair Display", serif;
+}
